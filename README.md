@@ -5,9 +5,8 @@ By downloading genomics data from the ATCC Genome Portal, including raw sequenci
 
 Columns in the CSV are:
 1. **Catalog Number**. For example _Escherichia coli_ (Migula) Castellani and Chalmers ATCC 11775 would simply be listed as "11775", and _Escherichia coli_ (Migula) Castellani and Chalmers BAA-2775 would simply be listed as "BAA-2755".
-2. **AssemblyID**. An internal tracking string that links back to the source file.
-3. **Genome Tax ID**. NCBI's taxonomic identifier most closely related to this assembly.
-4. **Assembly_URL** to MS Azure Blog Storage of raw FASTQs for both Illumina and ONT data for each assembly.
-5. **Illumina_R1_URL** to the forward reads of paired Illumina data associated with each assembly
-6. **Illumina_R2_URL** to the reverse reads of paired Illumina data associated with each assembly
-7. **ONT_URL** to the Oxford Nanopore long reads associated with each assembly
+2. **Genome Tax ID**. NCBI's taxonomic identifier most closely related to this assembly.
+3. **Assembly_URL** to MS Azure Blog Storage of raw FASTQs for both Illumina and ONT data for each assembly.
+4. **Illumina_R1_URL** to the forward reads of paired Illumina data associated with each assembly
+5. **Illumina_R2_URL** to the reverse reads of paired Illumina data associated with each assembly
+6. **ONT_URL** to the Oxford Nanopore long reads associated with each assembly
